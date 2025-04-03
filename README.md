@@ -72,10 +72,10 @@ Visit the [full documentation](https://docs.agentset.ai) for more details.
 <!-- Links -->
 
 [docs]: https://docs.agentset.ai/
-[build-badge]: https://github.com/agentset-ai/agentset/actions/workflows/release.yml/badge.svg
-[build]: https://github.com/agentset-ai/agentset/actions/workflows/release.yml
-[license-badge]: https://badgen.net/github/license/agentset-ai/agentset
-[license]: https://github.com/agentset-ai/agentset/blob/main/LICENSE
+[build-badge]: https://github.com/agentset-ai/mcp-server/actions/workflows/release.yml/badge.svg
+[build]: https://github.com/agentset-ai/mcp-server/actions/workflows/release.yml
+[license-badge]: https://badgen.net/github/license/agentset-ai/mcp-server
+[license]: https://github.com/agentset-ai/mcp-server/blob/main/LICENSE
 [npm]: https://www.npmjs.com/package/@agentset/mcp
 [npm-badge]: https://badgen.net/npm/v/@agentset/mcp
 [downloads-badge]: https://img.shields.io/npm/dm/@agentset/mcp.svg
