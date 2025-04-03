@@ -1,0 +1,64 @@
+{
+  "name": "@agentset/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentset-ai/mcp-server"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agentset",
+    "knowledge-base",
+    "retrieval",
+    "ai",
+    "claude",
+    "anthropic"
+  ],
+  "license": "MIT",
+  "version": "1.2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "agentset-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "inspect": "pnpm dlx dotenv-cli -- pnpm dlx @modelcontextprotocol/inspector node dist/index.js",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "agentset": "^1.2.0",
+    "commander": "^13.1.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "eslint": "^9.19.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.7.3",
+    "@eslint/compat": "^1.2.5",
+    "eslint-plugin-import": "^2.31.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "typescript-eslint": "^8.21.0",
+    "@changesets/cli": "^2.27.1"
+  }
+}
