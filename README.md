@@ -1,6 +1,6 @@
 # Agentset MCP
 
-MCP server for Agentset.
+MCP server for Agentset, an open-source platform for Retrieval-Augmented Generation (RAG). Designed for developers who want to build intelligent, document-based applications quickly and efficiently.
 
 [![npm version][npm-badge]][npm]
 [![License][license-badge]][license]
